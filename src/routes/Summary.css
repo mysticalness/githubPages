@@ -1,0 +1,24 @@
+.summarContent {
+  border: 2px solid white;
+  border-radius: 10px;
+  height: calc(100% - 100px);
+}
+
+.summaryList {
+  display: flex;
+  border-bottom: 2px solid white;
+  height: calc((100% - 100px) / 3);
+}
+
+.bookName {
+  font-size: 1.5rem;
+  width: 70%;
+}
+
+.duration-Key {
+  width: 15%;
+}
+
+.bookImage {
+  width: 15%;
+}

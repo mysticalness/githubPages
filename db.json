@@ -1,0 +1,27 @@
+{
+  "bookList": [
+    {
+      "number" : "01",
+      "part" : "first_items",
+      "bookName": "타입으로 견고하게 다형성으로 유연하게",
+      "duration": "2023.12.26 - 2024.01.11",
+      "bookImg": "../img/type.jpg",
+      "bookImgLink": "https://ebook.insightbook.co.kr/book/152"
+    },
+    {
+      "number" : "02",
+      "part" : "second_items",
+      "bookName": "모던 리액트 Deep Dive",
+      "duration": "2024.09.20 -",
+      "bookImg": "../img/modern.jpg",
+      "bookImgLink": "https://wikibook.co.kr/react-deep-dive/"
+    }
+  ],
+  "bookContext" : [
+    {
+      "a" :"1",
+      "b" : "2"
+    }
+  ]
+  
+}

@@ -1,0 +1,32 @@
+.mainContent{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 50px);
+}
+
+
+.profileDiv { 
+  margin-bottom: 20px;
+}
+
+.profileDiv img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100px 150px / 100px 70px;
+}
+
+.welcome {
+font-size: 2.5rem;
+}
+
+.othersites {
+  display: flex;
+  justify-content: center;
+}
+
+.othersites .linkIcons {
+  margin: 10px 5px;
+  font-size: 1.6rem;
+}

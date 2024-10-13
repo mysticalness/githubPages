@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: -1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(165deg, #3A15B5 35%, rgba(255, 185, 67));
+}
+
+#root, .container {
+  height: 100%;
+}
+
+#root {
+  padding: 7px 5px;
+}
