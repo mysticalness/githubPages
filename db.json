@@ -1,27 +1,68 @@
 {
   "bookList": [
     {
-      "number" : "01",
-      "part" : "first_items",
+      "number": "01",
+      "part": "first_items",
       "bookName": "타입으로 견고하게 다형성으로 유연하게",
       "duration": "2023.12.26 - 2024.01.11",
-      "bookImg": "../img/type.jpg",
-      "bookImgLink": "https://ebook.insightbook.co.kr/book/152"
+      "bookImg": "/assets/type.jpg",
+      "bookImgLink": "https://ebook.insightbook.co.kr/book/152",
+      "type": "summary"
     },
     {
-      "number" : "02",
-      "part" : "second_items",
+      "number": "02",
+      "part": "second_items",
       "bookName": "모던 리액트 Deep Dive",
       "duration": "2024.09.20 -",
-      "bookImg": "../img/modern.jpg",
-      "bookImgLink": "https://wikibook.co.kr/react-deep-dive/"
+      "bookImg": "/assets/modern.jpg",
+      "bookImgLink": "https://wikibook.co.kr/react-deep-dive/",
+      "type": "summary"
+    },
+    {
+      "number": "02",
+      "part": "second_items",
+      "bookName": "모던 리액트 Deep Dive",
+      "duration": "2024.09.20 -",
+      "bookImg": "/assets/modern.jpg",
+      "bookImgLink": "https://wikibook.co.kr/react-deep-dive/",
+      "type": "summary"
+    },
+    {
+      "number": "02",
+      "part": "second_items",
+      "bookName": "모던 리액트 Deep Dive",
+      "duration": "2024.09.20 -",
+      "bookImg": "/assets/modern.jpg",
+      "bookImgLink": "https://wikibook.co.kr/react-deep-dive/",
+      "type": "summary"
+    },
+    {
+      "number": "02",
+      "part": "second_items",
+      "bookName": "모던 리액트 Deep Dive",
+      "duration": "2024.09.20 -",
+      "bookImg": "/assets/modern.jpg",
+      "bookImgLink": "https://wikibook.co.kr/react-deep-dive/",
+      "type": "summary"
+    },
+    {
+      "number": "02",
+      "part": "second_items",
+      "bookName": "모던 리액트 Deep Dive",
+      "duration": "2024.09.20 -",
+      "bookImg": "/assets/modern.jpg",
+      "bookImgLink": "https://wikibook.co.kr/react-deep-dive/",
+      "type": "summary"
     }
   ],
-  "bookContext" : [
+  "docuInfo_1": [
     {
-      "a" :"1",
-      "b" : "2"
+      "number": "01",
+      "part": "first_document",
+      "documentName": "KBS 카드뉴스 제작",
+      "duration": "2018.10 - 2018.12",
+      "coverImg": "/assets/01cardNews.jpg",
+      "type": "technical"
     }
   ]
-  
 }

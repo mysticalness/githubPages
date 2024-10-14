@@ -1,24 +1,65 @@
 .summarContent {
   border: 2px solid white;
   border-radius: 10px;
-  height: calc(100% - 100px);
+  height: calc(100% - 71px);
+  position: relative;
 }
 
 .summaryList {
   display: flex;
   border-bottom: 2px solid white;
-  height: calc((100% - 100px) / 3);
+  height: calc(100% / 3);
+  padding: 30px;
+}
+
+.summaryList:last-child {
+  border-bottom: none;
 }
 
 .bookName {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
   width: 70%;
+  cursor: pointer;
 }
 
 .duration-Key {
-  width: 15%;
+  padding: 0px 40px;
+  width: 20%;
+  font-size: 1.1rem;
+}
+
+.duration {
+  height: 50%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: end;
+}
+
+.keyNum {
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 50%;
+  display: flex;
+  align-items: end;
+  justify-content: right;
 }
 
 .bookImage {
-  width: 15%;
+  width: 10%;
+}
+
+.bookImage img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.slideContent {
+  height: 100%;
 }

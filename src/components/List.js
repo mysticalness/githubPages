@@ -1,16 +1,23 @@
-function List({ key, bookName, duration, bookImg, bookImgLink }) {
-  console.log(bookImg);
+import { Link } from "react-router-dom";
 
+function List({ number, name, duration, img, imgLink, type }) {
+  console.log(type);
+  console.log(name);
+  console.log(duration);
+  
   return (
     <div className="summaryList">
-      <div className="bookName">{bookName}</div>
+      <div className="bookName">
+        <Link to={type === "technical" ? `/document/pdf/${name}` : "/summary/round"}>{name}</Link>
+      </div>
       <div className="duration-Key">
-        <div>{duration}</div>
-        <div>{key}</div>
+        <div className="duration">{duration}</div>
+        <div className="keyNum">{number}</div>
       </div>
       <div className="bookImage">
-        {bookImg}
-        <img src={bookImg} alt={bookName} />
+        <a href={imgLink} target="_blank">
+          <img src={img} alt={name} />
+        </a>
       </div>
     </div>
   );

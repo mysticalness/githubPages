@@ -12,8 +12,15 @@
 
 .navigation ul li {
   text-align: center;
-  width: calc(100% / 4);
+  width: 30%;
   cursor: pointer;
   font-weight: 600;
 }
 
+.goToHome {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 20px;
+  width: 10% !important;
+}

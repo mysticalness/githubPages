@@ -1,5 +1,7 @@
 import "./Navigation.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
 function Navigation() {
   return (
@@ -8,10 +10,14 @@ function Navigation() {
         <li>
           <Link to="/summary">Book Summary</Link>
         </li>
-        <li>Technical Document</li>
-        <li>About me</li>
         <li>
-          <Link to="/=">Home</Link>
+          <Link to="/document">Technical Document</Link>
+        </li>
+        <li>About me</li>
+        <li className="goToHome">
+          <Link to="/">
+            <FontAwesomeIcon icon={faHouse} />
+          </Link>
         </li>
       </ul>
     </div>

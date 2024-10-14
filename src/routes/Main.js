@@ -1,6 +1,5 @@
 import "./common.css";
 import "./Main.css";
-import profile from "../img/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faT } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -10,7 +9,7 @@ function Main() {
     <div className="mainContent">
       <div>
         <div className="profileDiv">
-          <img src={profile} alt="profile" />
+          <img src="/assets/profile.jpg" alt="profile" />
         </div>
         <h1 className="welcome">Welcome!</h1>
         <div className="othersites">

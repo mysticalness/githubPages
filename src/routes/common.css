@@ -15,13 +15,14 @@ body {
   font-size: 15px;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(165deg, #3A15B5 35%, rgba(255, 185, 67));
+  background: linear-gradient(165deg, #3a15b5 35%, rgba(255, 185, 67));
 }
 
-#root, .container {
+#root,
+.container {
   height: 100%;
 }
 
 #root {
-  padding: 7px 5px;
+  padding: 10px 15px;
 }
