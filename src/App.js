@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Navigation />
         <Switch>
-          <Route path="/summary/round">
+          <Route path="/summary/round/:name">
             <Round />
           </Route>
           <Route path="/document/pdf/:id">

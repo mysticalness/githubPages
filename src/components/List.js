@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
 
-function List({ number, name, duration, img, imgLink, type }) {
+function List({ number, name, duration, img, imgLink, type ,dataType}) {
   console.log(type);
   console.log(name);
   console.log(duration);
+  console.log(dataType)
   
   return (
     <div className="summaryList">
       <div className="bookName">
-        <Link to={type === "technical" ? `/document/pdf/${name}` : "/summary/round"}>{name}</Link>
+        <Link to={type === "technical" ? `/document/pdf/${name}` : `/summary/round/${dataType}`}>{name}</Link>
       </div>
       <div className="duration-Key">
         <div className="duration">{duration}</div>

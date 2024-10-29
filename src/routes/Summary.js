@@ -22,7 +22,7 @@ function Summary() {
   }, []);
 
   return (
-    <div className="summarContent">
+    <div className="summaryContent">
       <Swiper
         modules={[Navigation, Pagination]}
         slidesPerView={1} // 전체 슬라이드 개수
@@ -47,6 +47,7 @@ function Summary() {
                         img={book.bookImg}
                         imgLink={book.bookImgLink}
                         type={book.type}
+                        dataType={book.database}
                       />
                     ))}
                   </div>

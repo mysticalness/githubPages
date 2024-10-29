@@ -17,7 +17,7 @@ function Document() {
   console.log(document);
 
   return (
-    <div className="summarContent">
+    <div className="summaryContent">
       {loading
         ? ""
         : document.map((d) => (
