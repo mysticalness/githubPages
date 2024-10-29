@@ -40,9 +40,9 @@ function Round() {
             const slideRounds = rounds.slice(start, start + 10);
 
             return (
-              <div className="roundContainer">
+              <div>
                 <SwiperSlide key={slideIndex}>
-                  <div>
+                  <div className="roundContainer">
                     {Array.from({ length: 2 }).map((_, rowIndex) => (
                       <div  className="roundList" key={rowIndex}>
                         {slideRounds.slice(rowIndex * 5, rowIndex * 5 + 5).map((r) => (

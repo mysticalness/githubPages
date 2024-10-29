@@ -6,18 +6,22 @@
     height: calc(100% - 100px);
 }
 
+.roundContainer {
+    height: 100%;
+}
+
 .roundList {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100%;
-    height: 280px;
+    height: 47%;
 }
 
 .list {
     border: 1px solid white;
     padding: 15px;
     margin: 5px;
-    width: calc(100% / 5);
+    width: calc((100% - 50px) / 5);
     cursor: pointer;
 }
 
