@@ -12,7 +12,7 @@
   padding: 30px;
 }
 
-.summaryList:last-child {
+.summaryList:nth-child(3n) {
   border-bottom: none;
 }
 

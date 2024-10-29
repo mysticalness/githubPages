@@ -9,7 +9,7 @@ function List({ number, name, duration, img, imgLink, type ,dataType}) {
   return (
     <div className="summaryList">
       <div className="bookName">
-        <Link to={type === "technical" ? `/document/pdf/${name}` : `/summary/round/${dataType}`}>{name}</Link>
+        <Link to={type === "technical" ? `/document/pdf/${name}` : `/summary/round/${name}/${dataType}`}>{name}</Link>
       </div>
       <div className="duration-Key">
         <div className="duration">{duration}</div>

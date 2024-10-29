@@ -1,0 +1,31 @@
+.titleName {
+    margin: 10px 0px;
+}
+
+.roundContent {
+    height: calc(100% - 100px);
+}
+
+.roundList {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    height: 280px;
+}
+
+.list {
+    border: 1px solid white;
+    padding: 15px;
+    margin: 5px;
+    width: calc(100% / 5);
+    cursor: pointer;
+}
+
+.day {
+    font-size: 2rem;
+}
+
+.content {
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
