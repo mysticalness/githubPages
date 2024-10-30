@@ -1,6 +1,4 @@
-.titleName {
-    margin: 10px 0px;
-}
+
 
 .roundContent {
     height: calc(100% - 100px);
@@ -18,7 +16,7 @@
 }
 
 .list {
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 15px;
     margin: 5px;
     width: calc((100% - 50px) / 5);

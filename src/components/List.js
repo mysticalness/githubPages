@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Link } from "react-router-dom";
 
 function List({ number, name, duration, img, imgLink, type ,dataType}) {

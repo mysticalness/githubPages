@@ -1,12 +1,16 @@
+import React from 'react';
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import './Round.css';
+import "./common.css";
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
+import 'swiper/components/navigation/navigation.min.css'
+import 'swiper/components/pagination/pagination.min.css'
 import { faHourglass1 } from "@fortawesome/free-solid-svg-icons";
 
 function Round() {
@@ -30,6 +34,7 @@ function Round() {
       <Swiper
         modules={[Navigation, Pagination]}
         slidesPerView={1}
+        navigation
         pagination={{ clickable: true }}
       >
         {loading ? (
@@ -44,12 +49,14 @@ function Round() {
                 <SwiperSlide key={slideIndex}>
                   <div className="roundContainer">
                     {Array.from({ length: 2 }).map((_, rowIndex) => (
-                      <div  className="roundList" key={rowIndex}>
+                      <div className="roundList" key={rowIndex}>
                         {slideRounds.slice(rowIndex * 5, rowIndex * 5 + 5).map((r) => (
-                          <div className="list" key={r.number}>
-                            <div className="day">{r.number}일차</div>
-                            <div className="content">{r.content}</div> {/* Wrap in a parent div */}
-                          </div>
+                          <Link to={`/content/${name}/${r.number}`} className="list">
+                            <div key={r.number}>
+                              <div className="day">{r.number}일차</div>
+                              <div className="content">{r.content}</div> {/* Wrap in a parent div */}
+                            </div>
+                          </Link>
                         ))}
                       </div>
                     ))}

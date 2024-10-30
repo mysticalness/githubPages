@@ -1,12 +1,16 @@
+import React from 'react';
 import { useEffect, useState } from "react";
 import List from "../components/List";
+import "./common.css";
 import "./Summary.css";
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
+import 'swiper/components/navigation/navigation.min.css'
+import 'swiper/components/pagination/pagination.min.css'
 
 function Summary() {
   const [loading, setLoading] = useState(true);
@@ -26,6 +30,7 @@ function Summary() {
       <Swiper
         modules={[Navigation, Pagination]}
         slidesPerView={1} // 전체 슬라이드 개수
+        navigation
         pagination={{ clickable: true }}
       >
         {loading

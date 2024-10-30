@@ -26,3 +26,11 @@ body {
 #root {
   padding: 10px 15px;
 }
+
+.titleName {
+  margin: 10px 0px;
+}
+
+.swiper-container{
+  height: 100%;
+}
