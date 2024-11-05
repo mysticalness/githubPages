@@ -51,7 +51,7 @@ function Round() {
                     {Array.from({ length: 2 }).map((_, rowIndex) => (
                       <div className="roundList" key={rowIndex}>
                         {slideRounds.slice(rowIndex * 5, rowIndex * 5 + 5).map((r) => (
-                          <Link to={`/content/${name}/${r.number}`} className="list">
+                          <Link to={`/content/${name}/${r.number}/${dataType}`} className="list">
                             <div key={r.number}>
                               <div className="day">{r.number}일차</div>
                               <div className="content">{r.content}</div> {/* Wrap in a parent div */}

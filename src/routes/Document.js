@@ -15,8 +15,6 @@ function Document() {
       });
   }, []);
 
-  console.log(document);
-
   return (
     <div className="summaryContent">
       {loading

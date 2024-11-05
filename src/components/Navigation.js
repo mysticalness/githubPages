@@ -12,9 +12,15 @@ function Navigation() {
           <Link to="/summary">Book Summary</Link>
         </li>
         <li>
-          <Link to="/document">Technical Document</Link>
+          {/* <Link to="/document"> */}
+          Technical Document
+          {/* </Link> */}
         </li>
-        <li>About me</li>
+        <li>
+          <Link to="/about">
+            About me
+          </Link>
+        </li>
         <li className="goToHome">
           <Link to="/">
             <FontAwesomeIcon icon={faHouse} />
